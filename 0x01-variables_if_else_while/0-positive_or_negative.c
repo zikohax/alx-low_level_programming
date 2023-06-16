@@ -10,7 +10,7 @@ int main(void)
     
     n = rand() % 201 - 100;
     
-    printf("The number is %d\n", n);
+    printf("%d\n", n);
     
     if (n > 0)
     {
