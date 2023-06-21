@@ -22,5 +22,5 @@ int print_last_digit(int number)
 	}
 
 	_putchar('0' + last_digit);
-	return last_digit;
+	return (last_digit);
 }
