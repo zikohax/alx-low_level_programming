@@ -9,20 +9,20 @@
  */
 int print_last_digit(int number)
 {
-        int last_digit;
+	int last_digit;
 
-        if (number == INT_MIN)
-        {
-                last_digit = 8;
-        }
-        else
-        {
-                if (number < 0)
-                        number = -number;
+	if (number == INT_MIN)
+	{
+		last_digit = 8;
+	}
+	else
+	{
+		if (number < 0)
+			number = -number;
 
-                last_digit = number % 10;
-        }
+		last_digit = number % 10;
+	}
 
-        _putchar('0' + last_digit);
-        return last_digit;
+	_putchar('0' + last_digit);
+	return (last_digit);
 }
